@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
+  /* background-color: red; */
+  width: 80%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 440px;
+  border-radius: 29px;
 }
 
-.App-link {
-  color: #61dafb;
+h2{
+  margin-left: 465px;
+  /* background-color: red; */
+  /* top: 100px; */
+  margin-top: 52px;
+  margin-bottom: 36px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notes_con{
+    background-color: #fff;
+  width: 50%;
+    height: 339px;
+    border-bottom-right-radius: 29px;
+    border-top-right-radius: 29px;
+    padding: 20px;
+    z-index: 1;
+    border: 1px solid lightgray
+}
+
+.btn_con{
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: -85px;
+  height: 85px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  border: 1px solid lightgray;
+
+}
+input, button{
+  margin-top: 37px;
+  padding: 4px 15px 4px 15px;
+  border: 1px solid lightgray;
+  margin-right: 4px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  
+
+  
+}
+
+.feedback{
+  /* background-color: rgb(190, 29, 29); */
+  margin: auto;
+  width: 80%;
+  position: relative;
+  top: -70px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Meetink_Feed{
+  right: -20px;
+  position: relative;
+}
+.star{
+  margin-top: 10px;
+  fill: yellow  !important
+}
+
+.CheckBox{
+  margin: 0px;
+  /* background-color: pink; */
+  /* display: grid; */
+  width: 311px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 7px;
+  
+}
+.input_check{
+  margin-top: 0px;
+}
+textarea{
+  height: 100px;
+    width: 500px;
+    padding: 10px;
+}
+
+.btn_cHeckbox{
+  display: flex;
+    margin-left: 6px;
+    margin-top: -20px;
+}
+
+.Close{
+  padding-left: 7px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 7px;
+  border: 1px solid lightgray;
+}
+.Submit{
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: skyblue;
 }

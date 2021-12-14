@@ -1,0 +1,105 @@
+.app{
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 440px;
+    border-radius: 29px;
+  }
+  
+  h2{
+    margin-left: 465px;
+    /* background-color: red; */
+    /* top: 100px; */
+    margin-top: 52px;
+    margin-bottom: 36px;
+  }
+  .Avatar_con{
+    background-color: rgb(161, 238, 161);
+    width: 50%;
+      height: 338px;
+      border-bottom-left-radius: 29px;
+      border-top-left-radius: 29px;
+      padding: 21px;
+      z-index: 1;
+  }
+  .notes_con{
+      background-color: #fff;
+    width: 50%;
+      height: 339px;
+      border-bottom-right-radius: 29px;
+      border-top-right-radius: 29px;
+      padding: 20px;
+      z-index: 1;
+      border: 1px solid lightgray
+  }
+  
+  .btn_con{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -85px;
+    height: 85px;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    border: 1px solid lightgray;
+  
+  }
+  input, button{
+    margin-top: 37px;
+    padding: 4px 15px 4px 15px;
+    border: 1px solid lightgray;
+    margin-right: 4px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    
+  
+    
+  }
+  h3 , h4{
+    margin-left: 15px;
+    margin-top: 2px;
+    color: #fff;
+    font-size:medium;
+    font-weight: 10px;
+  }
+  .line_p{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #fff;
+    font-size:medium;
+    font-weight:lighter;
+  }
+  hr{
+    color: #fff;
+  }
+  
+  .profile-con{
+   /* background-color: blue; */
+   display: flex;
+  }
+  .profile_first{
+    padding: 16px;
+    border-right: 1px solid gainsboro;
+  }
+  .Avatar{
+     color: red;
+     margin-left: 20px;
+      margin-top: 7px;
+  }
+  .Avatar_tittle{
+    text-align: center;
+    margin-left: 2px;
+    margin-bottom: 4px;
+    color: #fff;
+  }
+  
+  .Meeting_hour{
+    margin-top: 52px;
+  }
+  h7{
+    color: #fff;
+    margin-left: 14px;
+  }

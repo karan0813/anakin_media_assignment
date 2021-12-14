@@ -1,0 +1,44 @@
+h9{
+    margin-right: 20px;
+}
+.Detailed_View{
+    margin-top: 4px;
+    padding: 4px 15px 4px 15px;
+    border: 1px solid lightgray;
+    margin-right: 4px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-left: 224px;
+    
+}
+h8{
+    padding: 10px;
+    position: relative;
+    top: 24px;
+}
+hr{
+    margin-left: 21px;
+}
+.Note{
+    position: relative;
+    
+    top: 69px;
+}
+p{
+    padding-left: 14px;
+    padding-bottom: 4px;
+}
+
+span{
+    opacity: 0.5;
+}
+.btn_{
+    margin-top: 100px;
+}
+.download{
+    position: relative;
+    right: -10px;
+    height: 20px;
+    top: 4px;
+}
