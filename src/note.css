@@ -34,11 +34,14 @@ span{
     opacity: 0.5;
 }
 .btn_{
-    margin-top: 100px;
+    margin-top: 104px;
+    height: 38px;
 }
 .download{
     position: relative;
     right: -10px;
-    height: 20px;
-    top: 4px;
+    width: 29px;
+    height: 21px;
+    /* top: 4px; */
+    bottom: -7px;
 }
