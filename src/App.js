@@ -6,7 +6,7 @@ import Note from './Note';
 function App() {
   return (
     <>
-      <h2 className='tiitle'>Generating Minutes of Meeting</h2>
+      <h2 className='tittle'>Generating Minutes of Meeting</h2>
           <div className="app">
              <AvaT/>
         <div className='notes_con'>
@@ -33,7 +33,7 @@ function App() {
         <input className='input_check' type="checkbox" id="vehicle1" name="vehicle1" value="Bike" /><span> <label for="vehicle1">I Dont Agree to the Meetings Minutes</label></span>
           {/* <br/> */}
           <div className='btn_cHeckbox'>
-            <button className='Close'>Close</button>
+            <button className='Close_btn'>Close</button>
             <button className='Submit'>Submit</button>
           </div>
         

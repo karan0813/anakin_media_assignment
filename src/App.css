@@ -3,22 +3,22 @@
   width: 80%;
   margin: auto;
   display: flex;
-  height: 440px;
-  border-radius: 29px;
+  height: 423px;
+    border-radius: 29px;
 }
 
-h2{
+.tittle{
   margin-left: 465px;
-  /* background-color: red; */
-  /* top: 100px; */
   margin-top: 52px;
-  margin-bottom: 36px;
+  margin-bottom: 17px;
+  font-size: x-large;
+  font-family:  sans-serif;
 }
 
 .notes_con{
     background-color: #fff;
   width: 50%;
-    height: 339px;
+    height: 330px;
     border-bottom-right-radius: 29px;
     border-top-right-radius: 29px;
     padding: 20px;
@@ -32,7 +32,7 @@ h2{
   margin: auto;
   position: relative;
   top: -85px;
-  height: 85px;
+  height: 83px;
   border-bottom-left-radius: 29px;
   border-bottom-right-radius: 29px;
   border: 1px solid lightgray;
@@ -86,8 +86,9 @@ input, button{
 }
 textarea{
   height: 100px;
-    width: 500px;
-    padding: 10px;
+  width: 573px;
+  padding: 4px;
+  margin-left: 53px;
 }
 
 .btn_cHeckbox{
@@ -96,15 +97,18 @@ textarea{
     margin-top: -20px;
 }
 
-.Close{
-  padding-left: 7px;
+.Close_btn{
+  padding-left: 34px;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-right: 7px;
+  padding-right: 33px;
   border: 1px solid lightgray;
+  margin-left: 24px;
 }
 .Submit{
   padding: 10px;
+  padding-left: 33px;
+  padding-right: 31px;
   border: 1px solid lightgray;
   background-color: skyblue;
 }

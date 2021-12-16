@@ -22,8 +22,8 @@ const Note = () => {
                 
 
             </div>
-            <button className='btn_'>Sales.pptx <FileDownloadIcon className='download'/></button>
-            <button className='btn_'>Sales.pptx  <FileDownloadIcon className='download'/></button>
+            <button className='btn_'>Sales.pptx <FileDownloadIcon fontSize='small' className='download'/></button>
+            <button className='btn_'>Sales.pptx  <FileDownloadIcon  fontSize='small' className='download'/></button>
             
 
         </>
